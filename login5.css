@@ -1,0 +1,83 @@
+/* Reuse style from signin.css for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #fad0c4, #ff9a9e);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.auth-box h2 {
+  text-align: center;
+  color: #ff4081;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #ff4081;
+}
+
+.btn {
+  width: 100%;
+  background: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e73370;
+}
+
+.switch-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.switch-link a {
+  color: #ff4081;
+  text-decoration: none;
+  font-weight: 600;
+}
+.switch-link a:hover {
+  text-decoration: underline;
+}
